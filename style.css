@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+#panel{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+#tpanel{
+    width: 100%;
+    height: 100px;
+    padding: 0px 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    gap: 20px;
+}
+
+
+.elem{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+    
+}
+
+.box{
+    background-color: #fff;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#btmpanel{
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(77, 176, 77);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.bubble:hover{
+    background-color: darkgreen;
+}
+
+#restart{
+    outline: none;
+    background-color: yellow;
+    border: solid 1px orange;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#restart:hover{
+   background-color: orange;
+}
